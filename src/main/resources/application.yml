@@ -1,0 +1,6 @@
+aws:
+  access-key: ${AWS_ACCESS_KEY}
+  secret-key: ${AWS_SECRET_KEY}
+  region: us-west-2
+  sqs:
+    queue-name: employee-message-queue
